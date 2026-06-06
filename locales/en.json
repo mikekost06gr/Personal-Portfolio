@@ -30,6 +30,8 @@
   "projects.card2.desc": "A university presentation project built with HTML, CSS, and JavaScript. The project was created as part of a university assignment and demonstrates my ability to create a visually appealing and interactive web application. The project includes various features such as animations, responsive design, and user interaction.",
   "projects.card3.title": "Coming Soon...",
   "projects.card3.desc": "Another exciting project coming soon. I'm constantly exploring new technologies and pushing the boundaries of what I can build.",
+  "projects.card4.title": "Youtube Downloader",
+  "projects.card4.desc": "A Youtube video & music downloader built with Python for the backend and React for the frontend, offering the ability to easily download your favorite videos and music from YouTube. Created as the final project for CS50's Introduction to Programming with Python.",
 
   "contact.title": "Get In Touch",
   "contact.text": "I'm currently looking for new opportunities and my inbox is always open. Whether you have a question or just want to say hi, fill out the form below and I'll get back to you as soon as possible!",
