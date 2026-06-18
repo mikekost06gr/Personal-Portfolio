@@ -830,11 +830,11 @@ ul {
 }
 
 .contact-form__submit {
-  align-self: flex-start;
+  align-self: center;
   display: inline-flex;
-  align-items: center;
+  justify-content: center;
   gap: 8px;
-  margin-top: 8px;
+  margin: 8px auto 0;
 }
 
 .contact-form__submit:disabled {

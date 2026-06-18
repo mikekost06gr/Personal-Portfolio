@@ -40,7 +40,7 @@
   "contact.labelSubject": "Θέμα",
   "contact.labelMessage": "Μήνυμα",
   "contact.placeholderName": "Το όνομά σου",
-  "contact.placeholderEmail": "to@email.sou",
+  "contact.placeholderEmail": "yourname@email.com",
   "contact.placeholderSubject": "Ποιο είναι το θέμα;",
   "contact.placeholderMessage": "Το μήνυμά σου...",
   "contact.btnSend": "Αποστολή Μηνύματος",
