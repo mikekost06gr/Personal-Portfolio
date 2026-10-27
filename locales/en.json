@@ -6,9 +6,8 @@
   "nav.resume": "Resume ↓",
 
   "home.greeting": "Hello, I'm",
-  "home.nameLine1": "Kostoglou",
-  "home.nameLine2": "Michail-Angelos",
-  "home.description": "Junior Full-Stack Developer who likes creating efficient and scalable web apps. Currently studying Computer Science at Democritus University of Thrace. Passionate about learning new technologies and improving my skills in software development.",
+  "home.nameLine1": "Michael",
+  "home.description": "I build websites, web applications, and landing pages for small businesses. I also work on a variety of personal projects.",
   "home.btnProjects": "View my Projects",
   "home.btnContact": "Get in Touch",
 
@@ -16,14 +15,18 @@
   "about.p1": "I'm a junior full-stack developer with a passion for technology and software development. I'm currently pursuing my Bachelor's degree in Computer Science at the Democritus University of Thrace.",
   "about.p2": "I hold an ECPE Proficiency certificate in English (C2 Level). I've been coding from 2023, building projects that range from web applications to slight game development.",
   "about.p3": "A few details about me:",
-  "about.born": "Born: January 20th, 2006",
-  "about.location": "Location: Currently in Kavala, Greece",
+  "about.born": "Born: 2006",
+  "about.location": "Location: Greece",
   "about.education": "Education: BSc Computer Science (in progress)",
   "about.university": "University: Democritus University of Thrace",
 
   "skills.title": "Skills & Programming Languages",
 
   "projects.title": "My Projects",
+  "projects.open": "View details",
+  "projects.mediaPlaceholder": "Add project screenshots or a short video here.",
+  "projects.card2.demoDescription": "A short demo of how the project works. For a better experience, click 🌐︎ to open the live demo. The live demo is only available in Greek because it was created for a university assignment in Greek.",
+  "projects.card4.demoDescription": "A short demo of how the project works. For a better experience, click 🌐︎ to open the live demo. YouTube and Vimeo links are unavailable due to their companies' policies, but you can still download videos from other websites (e.g., archive.org). The demo video also shows a YouTube video download.",
   "projects.card1.title": "Portfolio Website",
   "projects.card1.desc": "A personal portfolio website built with HTML, CSS, and JavaScript. It showcases my skills, projects, and experience as a full-stack developer. The website is designed to be responsive and visually appealing, providing visitors with an engaging experience.",
   "projects.card2.title": "University Project",

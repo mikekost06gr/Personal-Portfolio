@@ -228,8 +228,9 @@
   const langFlag = document.getElementById("langFlag");
   const resumeLink = document.getElementById("resumeLink");
 
-  // Default language is Greek
-  let currentLang = localStorage.getItem("lang") || "gr";
+  // Default language is Greek; keep only supported saved choices.
+  const savedLang = localStorage.getItem("lang");
+  let currentLang = savedLang === "en" ? "en" : "gr";
 
   // Cache loaded translations
   const translations = {};
@@ -270,11 +271,11 @@
   function updateFlagIcon(lang) {
     // Show the OTHER language's flag (the one you'd switch TO)
     if (lang === "en") {
-      langFlag.src = "images/gr.png";
+      langFlag.src = "images/skill-logos/gr.png";
       langFlag.alt = "GR";
       langToggle.title = "Ελληνικά";
     } else {
-      langFlag.src = "images/en.svg";
+      langFlag.src = "images/skill-logos/en.svg";
       langFlag.alt = "EN";
       langToggle.title = "English";
     }
@@ -334,7 +335,7 @@
   const langNotif = document.getElementById("langNotification");
   const langNotifClose = document.getElementById("langNotifClose");
 
-  if (langNotif && !sessionStorage.getItem("langNotifShown")) {
+  if (langNotif && currentLang === "gr" && !sessionStorage.getItem("langNotifShown")) {
     sessionStorage.setItem("langNotifShown", "1");
 
     // Auto-dismiss after 8 seconds (matches CSS bar animation)
